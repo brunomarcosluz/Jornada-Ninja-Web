@@ -10,6 +10,11 @@ function soma(numero1, numero2) { // função com retorno (return)
 }
 console.log(soma(4, 4));
 
+function brunotop(b){
+    console.log("Bruno é top");
+}
+brunotop()
+
 /* é bem simples declaramos a função com a palavra reservada (function) e em seguida passamos os
 devidos parâmetros. */
 
