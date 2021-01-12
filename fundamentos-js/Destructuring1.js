@@ -21,5 +21,5 @@ console.log(nome, idade); // os parâmetros passados para o destructuring se tor
 const {nome: n, idade: i} = pessoa
 console.log(n, i); // minhas novas variáveis derivadas do objeto pessoa
 
-const {endereco: {logradouro, numero}} = pessoa
+const {endereco: {logradouro, numero}} = pessoa // retirando um objeto aninhado com destructuring
 console.log(logradouro, numero);
