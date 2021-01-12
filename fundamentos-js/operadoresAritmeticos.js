@@ -10,3 +10,9 @@ e b o segundo  */
 const [a,b,c,d] = [1,2,3,4] // Declarando as variáveis com Destructuring
 
 const soma = a + b + c + d 
+const subtracao = a - b - c - d
+const multiplicacao = a * b
+const divisao = c / d
+const modulo = a % 2
+
+console.log(soma, subtracao, multiplicacao, divisao, modulo);
