@@ -1,4 +1,4 @@
-# Estudos curso web da escola Cod3r
+# Estudos do curso web da escola Cod3r
 
 ## Não é pirataria!
 
