@@ -25,4 +25,5 @@ function imprimirNomeGritado(obj){
 const obj = {nome: 'Bruno' } // perceba que aqui eu utilizei nome ao invés de 'name'
 imprimirNomeGritado(obj)
 
-/*o código gerou um erro pois declarei anteriormente com name e depois fiz a */  
+/*o código gerou um erro pois declarei anteriormente com (name) e depois fiz a
+requisição com (nome) este que por sua vez não foi encontrado. */  
