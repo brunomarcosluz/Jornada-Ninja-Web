@@ -12,3 +12,5 @@ function notaAluno(nota){
 }
 
 notaAluno(6)
+
+//-----@brunomarcosluz-----//
