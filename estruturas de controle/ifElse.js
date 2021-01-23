@@ -13,3 +13,5 @@ const imprimirResultado = function(nota){
 
 imprimirResultado(10)
 imprimirResultado(3)
+
+//-----@brunomarcosluz-----//
