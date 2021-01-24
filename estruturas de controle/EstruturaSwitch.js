@@ -2,7 +2,10 @@
 
 /* O Switch assim como as outras estruturas vistas até agora tais como
 If Else e Else if são estruturas de controle com o única intenção de múltiplas decisões
-funciona como se estivessemos dando uma inteligência para o nosso código 
+funciona como se estivessemos dando uma inteligência para o nosso código .
+
+Lembre-se! O switch diferente do If ele não retorna falso ou verdadeiro
+ele retorna um tipo seja essa string, int ou float.
 
 veja como o switch funciona abaixo com a função imprimirResultado: */
 
@@ -33,3 +36,8 @@ const imprimirResultado = function (nota) {
 
 imprimirResultado(10)
 imprimirResultado(8)
+imprimirResultado(4)
+imprimirResultado(0)
+
+/* O Break é a palavra reservada usada para sair do bloco caso a condição seja a 
+desejada, caso não tenha o break o switch irá executar todos os blocos de código */
