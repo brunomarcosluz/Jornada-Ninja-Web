@@ -11,7 +11,7 @@ veja como o switch funciona abaixo com a função imprimirResultado: */
 
 const imprimirResultado = function (nota) {
     switch (Math.floor(nota)){
-        case 10:
+        case 10: // está vazio então o switch procurará no case 9
         case 9:
             console.log('Parabéns!');
             console.log('você está no Quadro de Honra!');
@@ -24,7 +24,7 @@ const imprimirResultado = function (nota) {
             console.log('Recuperação');
             console.log('Ainda há tempo de melhorar!');
             break;
-        case 3: case 2: case 1: case 0:
+        case 3: case 2: case 1: case 0: // podemos colocar vários cases em uma única linha!
             console.log('Reprovado');
             console.log('Busque novos métodos e se dedique!');
             break;
