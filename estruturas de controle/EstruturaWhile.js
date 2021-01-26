@@ -3,4 +3,4 @@
 /* O While é a primeira estrutura de controle que vemos que 
 se caracteriza como Laço de Repetição
 
-O While = Enquanto */
+While = Enquanto */
