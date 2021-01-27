@@ -17,3 +17,16 @@ while(contador <= 10){
     console.log(`contador= ${contador}`);
     contador++
 }
+
+// como percorrer arrays
+
+/* percorrer valores de arrays é uma tarefa comum em javascript e podemos fazer isso
+tranquilamente com o For 
+
+veja o exemplo: */
+
+const notas = [6, 7, 8, 9, 10, 9.8]
+
+for(let i=0; i < notas.length; i++){ // para percorrer o array usamos a propriedade length
+    console.log(`nota= ${notas[i]}`);
+}
