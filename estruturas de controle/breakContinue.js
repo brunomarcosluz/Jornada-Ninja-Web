@@ -20,5 +20,11 @@ for(b in nums){
     if(b == 4){ // quando chegar no indice 4 pare e continue no próximo
         continue
     }
-    console.log(`${b}= ${nums[b]}`);
+    console.log(`${b}= ${nums[b]}`); 
 }
+
+/* Devemos controlar o uso de alterações no fluxo do código dessa maneira
+e focar em padrões de projeto com uma arquitetura mais elegante e limpa
+já que essa remete ao passado quando os algoritmos eram estruturados. */
+
+// @brunomarcosluz
