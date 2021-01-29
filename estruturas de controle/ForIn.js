@@ -10,7 +10,7 @@ observe: */
 
 const notas = [2,9,8.5,10,10]
 
-for(i in notas){
+for(i in notas){ // o in corresponde ao Índice
     console.log(i, notas[i]);
 }
 /* se você rodou o código percebeu que o for in 
