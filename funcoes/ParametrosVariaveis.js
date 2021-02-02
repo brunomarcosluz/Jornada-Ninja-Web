@@ -8,8 +8,8 @@ Neste exemplo utilizei o arguments para criar uma função
 que me permite ter parâmetros voláteis/variantes */
 
 function soma() {
-    let soma = 0
-    for(i in arguments){
+    let soma = 0 // inicializando uma variável soma.
+    for(i in arguments){ // aqui o for percorre o array para somar os índices.
         soma += arguments[i]
     }
     return soma
@@ -17,3 +17,6 @@ function soma() {
 
 console.log(soma(1,2,3));
 console.log(soma(1, 'Bruno'));
+
+
+// @brunomarcosluz
