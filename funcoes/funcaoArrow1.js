@@ -16,10 +16,14 @@ console.log(soma(1,1,1));
 
 // o mesmo código mas com arrow function:
 
-soma1 = (a,b,c) => {
+soma2 = (a,b,c) => {
     return a + b + c
 }
 
-console.log(soma1(2,2,0));
+console.log(soma2(2,2,0));
 
 // podemos remover o bloco da arrow function:
+
+soma3 = (a,b,c) => a + b + c // o return nesse formato fica implícito
+
+console.log(soma3(1,2,2));
