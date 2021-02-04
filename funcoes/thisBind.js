@@ -15,5 +15,11 @@ const pessoa = {
 
 pessoa.falar() 
 
-const falar = pessoa.falar // armazenando o atributo do objeto à uma variável.
+const falar = pessoa.falar // armazenando o atributo do objeto à uma constante.
 falar() // undefined o this variou, safado!
+
+// resolvendo o problema com o Bind!
+
+const falarComPessoa = pessoa.falar.bind(pessoa) // amarrando o this do objeto (pessoa).
+
+falarComPessoa() // finalmente temos o nosso atributo dentro de uma constante.
