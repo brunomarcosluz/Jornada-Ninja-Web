@@ -10,7 +10,10 @@ let comparaComThis = function (param) { // exemplo sem arrow function
     console.log(this === param);
 }
 
-comparaComThis(global)
+comparaComThis(global) // saída -> true (o this variou)
 
 // exemplo com arrow function: 
 
+let comparacomThisArrow = param => console.log(this === param);
+
+comparacomThisArrow(global) // saída -> false (o this não variou)
