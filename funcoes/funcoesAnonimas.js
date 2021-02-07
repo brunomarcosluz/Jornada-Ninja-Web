@@ -22,7 +22,7 @@ imprimirResultado(3,4, function (a,b){
 // podemos criar funções dentro de atributos de objetos:
 
 const Pessoa = {
-    falar = function () {
+    falar: function () {
         console.log("Eae mano!");
     }
 }
