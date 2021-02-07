@@ -10,11 +10,12 @@ const soma = function (a,b) {
     return a + b
 }
 
-const imprimirResultado = function(x,y, operacao=soma){
-    console.log(x,y);
+const imprimirResultado = function(x,y, operacao = soma){
+    console.log(operacao(x,y));
 }
 
 // criando uma função em uma chamada:
+imprimirResultado(2,2)
 imprimirResultado(3,4, function (a,b){
     return a - b
 })
