@@ -4,7 +4,7 @@
 mostre no console a soma, subtração, multiplicação e divisão desses valores */
 
 function matematica(n1,n2) {
-    return console.log("soma: \n", n1 + n2,"subtração: \n", n1 - n2,"multiplicação: \n", n1 * n2, "divisão: \n", n1 / n2,);
+    return console.log("soma:", n1 + n2,"\nsubtração:", n1 - n2,"\nmultiplicação:", n1 * n2, "\ndivisão:", n1 / n2,);
 }
 
 matematica(2,2)
