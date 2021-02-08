@@ -14,3 +14,7 @@ function imprimir(nome,indice) {
 }
 
 fabricantes.forEach(imprimir) // chamando de volta a função.
+
+fabricantes.forEach(function (fabricante) {
+    console.log(fabricante);    
+})
