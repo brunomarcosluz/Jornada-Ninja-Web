@@ -13,11 +13,14 @@
   * Exercícios
   * Conceitos sobre Engenharia de Software
   * Código Limpo
+* **JQuery**
+* **WebPack**
 * **Vue.js**
   * Projeto Monty Hall
   * Projeto Calculadora
 * **Angular**
 * **React**
+* **Node**
 * **Banco de Dados**
   * BD Relacional
   * BD Não Relacional
