@@ -40,7 +40,7 @@
 ### Recado do Bruno:
 
 <p> Fique livre para baixar e modificar meus arquivos, 
-cada arquivo contém um estudo com dicas e explicações sobre o assunto. Cada palavra escolhida cuidadosamente para não atrapalhar seu raciocínio! Muita fé e Deus te abençoe Abç. @brunomarcosluz
+cada arquivo contém um estudo com dicas e explicações sobre o assunto. Cada palavra escolhida cuidadosamente para não atrapalhar seu raciocínio! Muita fé, e que Deus te abençoe Abç. @brunomarcosluz
 </p>
 
 ------------
