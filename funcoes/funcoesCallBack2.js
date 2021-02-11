@@ -23,4 +23,6 @@ const notasBaixas2 = notas.filter(function (nota){
 
 console.log(notasBaixas2);
 
+// nova funcionalidade vista (.filter) filtra o array selecionado.
+
 // @brunomarcosluz
