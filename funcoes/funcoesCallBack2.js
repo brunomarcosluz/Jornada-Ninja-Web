@@ -22,3 +22,5 @@ const notasBaixas2 = notas.filter(function (nota){
 })
 
 console.log(notasBaixas2);
+
+// @brunomarcosluz
