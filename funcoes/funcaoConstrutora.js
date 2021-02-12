@@ -11,18 +11,26 @@ exemplo com código para facilitar a visualização em prática: */
 
 function Carro(velocidadeMax = 220, delta=10) {
     let velocidadeAtual = 0
-}
 
-this.acelerar = function () { // função anônima, já vimos isso em!
-    if (velocidadeAtual + delta <= velocidadeMax) {
-        velocidadeAtual += delta
-    } else {
-        velocidadeAtual = velocidadeMax
+    this.acelerar = function()  {
+        if (velocidadeAtual + delta <= velocidadeMax) {
+            velocidadeAtual += delta
+        } else {
+            velocidadeAtual = velocidadeMax
+        }
     }
+    
+     this.getVelocidadeAtual = function (){
+        return velocidadeAtual
+     }
 }
 
-this.getVelocidadeAtual = function (){
-    return velocidadeAtual
-}
+const celta = new Carro
 
-const Celta = new Carro
+celta.acelerar()
+console.log(celta.getVelocidadeAtual());
+
+const BMW = new Carro(300, 30)
+
+BMW.acelerar()
+console.log(BMW.getVelocidadeAtual());
