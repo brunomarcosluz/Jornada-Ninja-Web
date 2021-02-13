@@ -1,0 +1,1 @@
+// TIpos de Declaração
