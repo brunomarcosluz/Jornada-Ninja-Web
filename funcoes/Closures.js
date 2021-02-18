@@ -7,10 +7,10 @@ para facilitar:
 
 Closure = contexto léxico no uqal o código está inserido. */
 
-const x = 'global'
+const x = 'global' // => contexto léxico "Global"
 
 function fora(){
-    const x = 'local'
+    const x = 'local' // => contexto léxico "Local"
     function dentro() {
         return x;        
     }
@@ -18,3 +18,5 @@ function fora(){
 }
 
 const minhaFuncao = fora()
+
+console.log(minhaFuncao());
