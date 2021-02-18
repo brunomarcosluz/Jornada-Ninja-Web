@@ -17,3 +17,4 @@ function fora(){
     return dentro;
 }
 
+const minhaFuncao = fora()
