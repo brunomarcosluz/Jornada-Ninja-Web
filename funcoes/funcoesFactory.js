@@ -14,3 +14,13 @@ function criarPessoa() {
 
 console.log(criarPessoa());
 
+function criarCarro() {
+    return {
+        modelo: 'X1',
+        fabricante: 'BMW',
+        ano: '2021',
+        cor: 'Branco Gelo'
+    }    
+}
+
+console.log(criarCarro());
