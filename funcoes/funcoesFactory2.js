@@ -26,6 +26,6 @@ function criarAnimal (nome,especie){
     }
 }
 console.log("=== CRIANDO ANIMAIS ===");
-console.log(criarAnimal("Geraldo", "Tamanduá"));
+console.log(criarAnimal("Roberto", "Tamanduá-Bandeira"));
 console.log(criarAnimal("Denis", "Mico-Leão-Dourado"));
 console.log(criarAnimal("Nino","Cachorro"));
