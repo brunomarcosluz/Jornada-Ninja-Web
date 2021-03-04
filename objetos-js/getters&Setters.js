@@ -7,6 +7,8 @@ const sequencia = {
         return this.valor++
     },
     set valor(valor) {
-        
+        if(valor > this._valor){
+            this._valor = valor
+        }
     }
 }
