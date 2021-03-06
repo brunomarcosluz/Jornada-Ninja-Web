@@ -1,0 +1,1 @@
+// Funções importantes de Objeto
