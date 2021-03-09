@@ -30,6 +30,7 @@ const imprimirResultado = function (nota) {
             break;
         default:
             console.log('nota inválida');
+            console.log('o sistema só aceita números inteiros');
             break; // aqui o break não é tão necessário podemos dispensá-lo
     }
 }
