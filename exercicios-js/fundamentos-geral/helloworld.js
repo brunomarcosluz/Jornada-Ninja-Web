@@ -2,4 +2,4 @@
 você não aprende a linguagem */
 
 
-console.log("Hello World");
+console.log("Hello World"); // o ponto e vírgula é descartável em javascript
