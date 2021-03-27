@@ -15,7 +15,7 @@ function jurosSimples(C,i,t) {
 
 jurosSimples(1000)
 
-function jurosCompostos(C,i,t){
+function jurosCompostos(C,i,t){ // fórmula juros compostos
     let juros = C * i * t
     let montante = C + juros
     return console.log("montante= ",montante, "\ntaxa de juros ao mês= ",i,'%');
