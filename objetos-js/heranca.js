@@ -7,7 +7,7 @@ Em javascript herança se da pelo atributo [[prototype]] */
 
 const BMW = {
     modelo: '320i',
-    velMax: 340
+    velMax: 240
 }
 
 console.log(BMW.__proto__);
