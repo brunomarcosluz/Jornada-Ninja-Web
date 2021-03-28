@@ -24,8 +24,10 @@ console.log("modelo:", BMW.modelo, ", Ar-Condicionado:", BMW.arCondicionado, ", 
 
 // cadeia de protótipos (prototype chain)
 
-Object.prototype.Attr0 = 'Zero'
+Object.prototype.Attr0 = 'Zero' // não é uma boa prática manipular o prototpe global assim!
 const avo = { Attr1: 'A' }
 const pai = {__proto__: avo, Attr2: 'B'}
 const filho = {__proto__:pai, Attr3: 'C'}
 console.log(filho.Attr1, filho.Attr0)
+
+// @brunomarcosluz
