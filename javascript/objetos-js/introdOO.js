@@ -19,6 +19,8 @@ console.log(Bruno.graduacao)
 console.log(Bruno.idiomas)
 console.log(Bruno.linguagens)
 
+// Objeto Carro e seus atributos:
+
 const Carro = {
     fabricante: ['bmw','mercedes','ford','ferrari'],
     modelo: ['X1','AMG-GT Coupé','Mustang','f488'],
