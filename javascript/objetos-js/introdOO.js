@@ -18,3 +18,13 @@ const Bruno = {
 console.log(Bruno.graduacao)
 console.log(Bruno.idiomas)
 console.log(Bruno.linguagens)
+
+const Carro = {
+    fabricante: ['bmw','mercedes','ford','ferrari'],
+    modelo: ['X1','AMG-GT Coupé','Mustang','f488'],
+    cor: ['vermelho','prata', 'preto', 'chumbo'],
+    velMax: [280,350,400,250],
+    qtdBancos: [4,2]
+}
+console.log(Carro.fabricante);
+console.log(Carro.modelo);
