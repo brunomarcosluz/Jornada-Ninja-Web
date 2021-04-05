@@ -6,7 +6,7 @@ exatamente quantas repetições queremos
 
 observe:  */
 
-for (i = 0; i <=10; i++){
+for (i = 0; i <=10; i++){ 
     console.log(`i = ${i}`);
 }
 
