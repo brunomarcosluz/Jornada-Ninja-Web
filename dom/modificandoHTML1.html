@@ -9,7 +9,21 @@
 
 <body class='conteudo exercicio'>
     <script>
-        // ...
+        const body = document.querySelector('body');
+
+        const div1 = document.createElement('div') //criando elementos
+        div1.classList.add('destaque') // adicionando a classe "destaque"
+        div1.innerHTML = 'Primeiro'
+
+        const div2 = document.createElement('div'); // criando elementos
+        div2.setAttribute('wm-atributo', 'valor');
+        div2.innerHTML = 'Segundo'
+
+        const p = document.createElement('p');
+        p.innerHTML = 'Terceiro'
+
+        const div3 = document.createElement('div');
+        div3.appendChild(p); 
     </script>
 </body>
 
