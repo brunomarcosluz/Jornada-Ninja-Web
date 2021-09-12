@@ -24,6 +24,13 @@
 
         const div3 = document.createElement('div');
         div3.appendChild(p); 
+
+        const texto = document.createTextNode('Antes..')
+        div3.insertBefore(texto, div3.childNodes[0])
+
+        const div4 = div3.cloneNode(true);
+        body.appendChild(div4);
+        body.removeChild(div3);
     </script>
 </body>
 
