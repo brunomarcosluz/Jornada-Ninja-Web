@@ -37,7 +37,7 @@
 
 --------------
 
-### Recado do Bruno:
+### Recado:
 
 <p> Fique livre para baixar e modificar meus arquivos, 
 cada arquivo contém um estudo com dicas e explicações sobre o assunto. Cada palavra escolhida cuidadosamente para não atrapalhar seu raciocínio! Muita fé, e que Deus te abençoe Abraço! @brunomarcosluz
