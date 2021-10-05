@@ -2,7 +2,7 @@
 
 ## Torne-se um Ninja.. mas só na Web!
 
-**Antes de começar a estudar assita esse vídeo do prof. Pier Luiggi Piazzi:** encurtador.com.br/awzPY  
+**Antes de começar a estudar assista esse vídeo do prof. Pier Luiggi Piazzi:** encurtador.com.br/awzPY  
 
 <img align="center" src="https://media1.giphy.com/media/3o7btXJQm5DD8ApubC/giphy.gif?cid=ecf05e47kkqbbp0r2nlac17b6l4hgp63zukf55h7jy5zaeyc&rid=giphy.gif">
 
