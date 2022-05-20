@@ -1,0 +1,6 @@
+{
+  "workbench.settings.editor": "json",
+  "editor.wordWrap": "on",
+  "telemetry.enableTelemetry": "false",
+  "security.workspace.trust.untrustedFiles": "open"
+}
