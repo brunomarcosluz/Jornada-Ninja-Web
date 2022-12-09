@@ -16,14 +16,14 @@ var brasil = 207;
 var china = 1340;
 
 // O que irá aparecer no console?
-if(('Gato' === 'gato') && (5 > 2)) {
+if (('Gato' === 'gato') && (5 > 2)) {
   console.log('Verdadeiro');
 } else {
   console.log('Falso');
 }
 
 // O que irá aparecer no console?
-if(('Gato' === 'gato') || (5 > 2)) {
+if (('Gato' === 'gato') || (5 > 2)) {
   console.log('Gato' && 'Cão');
 } else {
   console.log('Falso');
